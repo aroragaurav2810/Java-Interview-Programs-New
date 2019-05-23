@@ -1,0 +1,3 @@
+23:27:44,870  INFO studystuff_reflection_and_generic_enum_database.DatabaseUtilities<strong>{1}</strong>:46 - Get variables from Bean class:: studystuff_reflection_and_generic_enum_database.Employee
+23:27:44,885  INFO studystuff_reflection_and_generic_enum_database.DatabaseUtilities<strong>{1}</strong>:58 - Generate list of variables and mapping for Bean class:: studystuff_reflection_and_generic_enum_database.Employee
+23:27:44,885  INFO studystuff_reflection_and_generic_enum_database.DatabaseUtilities<strong>{1}</strong>:126 - Return list of objects of the Bean class
