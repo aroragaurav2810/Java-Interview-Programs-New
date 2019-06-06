@@ -3,7 +3,7 @@ package studystuff_interview_questions_all;
 import java.util.Arrays;
 
 
-/*Logic: In merge sorting algorithm unsorted values are divided into two equal parts iteratively. 
+/*Logic: In merge sorting algorithm , unsorted values are divided into two equal parts iteratively. 
 Then merge both parts and sort it. Then again merge the next part and sort it. 
 Do it iteratively until  the values are not in sorted order. 
 In merge sorting the number of elements must be even

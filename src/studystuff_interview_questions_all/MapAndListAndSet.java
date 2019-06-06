@@ -35,7 +35,7 @@ public class MapAndListAndSet {
 				System.out.println("check: "+itr.next());
 			}
 			
-	// Map Traverse in different ways
+       // Map Traverse in different ways
 			for(String str:map.keySet())
 			{
 				System.out.println("Key: "+str+" Value: "+map.get(str));
@@ -51,7 +51,7 @@ public class MapAndListAndSet {
 			
 			
 // Difference in hashMap and HashTable
-			
+// Hashtable does not contain null key  and even it does not contain null value			
 			HashMap<Integer, String> obj1=new HashMap<Integer, String>();
 			obj1.put(10, "Abc");
 			obj1.put(20, "CDE");
@@ -67,11 +67,14 @@ public class MapAndListAndSet {
 			obj.put(20, "CDE");
 			//obj.put("gaurav", "arora");
 			//obj.put(true, false);
-			/*obj.put(null, null);
-			obj.put(null, null);
+			/*obj.put(40, null);
+			obj.put(50, null);
 			obj.put(null, null);*/
+			
 			System.out.println(obj);
 
 	}
 
 }
+
+// 

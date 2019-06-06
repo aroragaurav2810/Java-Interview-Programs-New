@@ -12,7 +12,7 @@ public class Increment_And_Decrement_Operator_2
 	
 	
 	{
-			if(x<y | ++x>y++)  // This gives true in LHS and it also checks for RHS as we have used bitwise OR operator not the Logical OR operator
+			if(x<y | ++x>y++)  // This gives true in LHS, it means this OR operator will proceed under if and it also checks for RHS as here we have used bitwise OR operator not the Logical OR operator
 			{
 				System.out.println("value of x is "+x);
 				System.out.println("value of y is "+y);

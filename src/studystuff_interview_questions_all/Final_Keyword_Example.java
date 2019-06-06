@@ -8,6 +8,7 @@ public class Final_Keyword_Example
 	
 	private final void function1()
 	{
+		final int a=10;
 		
 	}
 	

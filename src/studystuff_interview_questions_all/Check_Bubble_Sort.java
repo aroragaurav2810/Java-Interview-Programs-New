@@ -1,5 +1,7 @@
 package studystuff_interview_questions_all;
 
+import java.util.Arrays;
+
 public class Check_Bubble_Sort {
 	
 	static int t;
@@ -19,6 +21,8 @@ public class Check_Bubble_Sort {
 		}
 	}
 
+	
+	
 	public static void main(String[] args)
 	
 	{
@@ -30,7 +34,7 @@ public class Check_Bubble_Sort {
 		}
 		System.out.println();
 		bubbleSort(ar);
-		System.out.println("Array after bubble sort");
+		System.out.println("Array after bubble sort"+Arrays.toString(ar));
 		
 		
 		

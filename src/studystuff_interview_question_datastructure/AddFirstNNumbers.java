@@ -20,11 +20,11 @@ public class AddFirstNNumbers
 			{
 				sum=sum+i;
 			}
-System.out.println("The sum of "+number+" is "+ sum );
+System.out.println("The sum of "+number+" numbers is "+ sum );
 	}
 
 }
 
 
-// This logic is created by me, In tutorial point(SCJP folder book mark: Java Data Structure - Programming Examples)
-// which is quite complex
+// This logic is created by me.
+// In tutorial point(SCJP folder book mark: Java Data Structure - Programming Examples) which is quite complex

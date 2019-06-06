@@ -15,6 +15,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+
+
 public class ComparatorClassSorting {
 
 	public static void main(String[] args)
@@ -131,11 +133,12 @@ public class ComparatorClassSorting {
 }
 
 
-// Why Comparable over Comparator: because Comparable is an interface that is implemented by lot of predefined classes so that you can compare 
-// Important: Why Comparator over Comparable: It provides multiple sorting sequence i.e. you can sort the elements on the basis of any data member, for example rollno, name, marks, subject or anything else.
-// see all above cases, This is not possible in case of Comparable as you can sort the elements on based on single data member only. 
+// Why Comparable over Comparator: Used while sorting on predefined classes, because Comparable is an interface that is implemented by lot of predefined classes so that you can compare 
+// Important: Why Comparator over Comparable: It provides multiple sorting sequence i.e. you can sort the elements by overriding compare(Object o1,Object o2) function multiple times using anonymous class.
+// And we know, When we override any function using anonymous class, we are not required to implement/extend the interface/class, Thus Comparator interface is not required to implement.
+// see all above cases, This is not possible in case of Comparable as there is only one object, so when you try to make it's anonymous class then without second object you can't compare as directly(without object) getter/setter functions are not possible to call from outside the class
 // For example either it may be rollno, name, marks, subject or anything else. You can't sort simultaneously- refer class ComparableClassSorting and try
-// This is because , it does not have syntax like compare(list, Comparable in anonymous class or Comparable in lambda Expression)
+
 
 class Student1 implements   Comparator<Student1>
 {

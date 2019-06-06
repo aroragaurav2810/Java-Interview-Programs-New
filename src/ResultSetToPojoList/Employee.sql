@@ -1,0 +1,1 @@
+select first_name,last_name,age,salary,joining_date from employee

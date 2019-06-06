@@ -10,7 +10,7 @@ public class Increment_And_Decrement_Operator_3 {
 	
 	
 	{
-			if(x>y & ++x>y++)  // This gives true in LHS and it also checks for RHS as we have used bitwise OR operator not the Logical OR operator
+			if(x>y & ++x>y++)  // This gives false in LHS, it means this AND operator will not proceed  under if block, It also checks for RHS as here we have used bitwise AND operator not the Logical AND operator
 			{
 				System.out.println("In if condition");
 			}

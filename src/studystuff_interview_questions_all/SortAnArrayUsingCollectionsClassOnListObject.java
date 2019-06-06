@@ -29,8 +29,9 @@ public class SortAnArrayUsingCollectionsClassOnListObject
 		{
 		obj_list.add(ar[i]);
 		}
-	Collections.sort(obj_list);;   // Logic: it is not collection interface, it is Collections class
-	
+	Collections.sort(obj_list);;   
+	// Logic: it is not collection interface, it is Collections class
+	// It is similar to Arrays class for sorting an array
 	System.out.println("Sorted Array is "+obj_list);
 	}
 

@@ -99,7 +99,7 @@ public class Equals_Method_AND_Equals_Operator
 // wanted to clarify if I understand this correctly:
 
 // == -> is a reference comparison, i.e. both objects point to the same memory location or not
-// .equals() -> evaluates to the comparison of values in the objects of Classes(String, Integer, Float etc)
+// .equals() -> evaluates to the comparison of values in the objects of Classes like primitive classes(String, Integer, Float etc)
 
 
 

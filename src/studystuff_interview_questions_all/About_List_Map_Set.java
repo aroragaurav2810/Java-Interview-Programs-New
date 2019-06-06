@@ -107,7 +107,7 @@ public class About_List_Map_Set
 	obj_obj_obj.put("kamiya", "1002"); 
 	obj_obj_obj.put("raper", "1004");
 	obj_obj_obj.put("kailash", "1002");
-	//obj_obj_obj.put(null, null);  
+	//obj_obj_obj.put(null, null); // TreeMap does not contain  null value 
 	//obj_obj_obj.put(null, null);
 	obj_obj_obj.put("geeta", null);
 	obj_obj_obj.put("amit", null);
@@ -158,8 +158,7 @@ public class About_List_Map_Set
 	obj1_obj2.add("value3");
 	obj1_obj2.add("value4");
 	obj1_obj2.add("value5");
-	obj1_obj2.add(null);
-	obj1_obj2.add(null);  // set contains only one null value because the last will overwrite the earlier null values, however adding multiple null is allowed
+	//obj1_obj2.add(null);  // TreeSet does not contain  null value 
 	Object[] ar1=obj1_obj1.toArray();
 	System.out.println("Array Value  "+ar1[3]);
 	System.out.println("Tree Set is "+obj1_obj2);

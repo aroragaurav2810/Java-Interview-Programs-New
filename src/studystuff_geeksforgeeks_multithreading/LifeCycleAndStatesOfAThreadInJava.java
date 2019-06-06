@@ -3,15 +3,15 @@ package studystuff_geeksforgeeks_multithreading;
 public class LifeCycleAndStatesOfAThreadInJava implements Runnable 
 
 {
-
+	// Java Thread Model:
 	// A thread in Java at any point of time exists in any one of the following states. A thread lies only in one of the shown states at any instant:
 
-		// 1. New
-		// 2. Runnable
-		// 3. Blocked
-		// 4. Waiting
-		// 5. Timed Waiting
-		// 6. Terminated
+		// 1. New : PEHLE NEW HOTA HAI
+		// 2. Runnable: FIR START HONE KE BAAD RUNNABLE MODE MEIN AA JATA HAI
+		// 3. Wait: FIR WAIT KRTA HAI OTHER THREADS COMPLETE HONE KA
+		// 4. Blocked: KAI BAARI BLOCK BHI HO JAATA HAI
+		// 5. Terminated: FINALLY TERMINATE HO JAATA HAI, EK TIME YA CONDITION KE BAAD
+	// note: Once a thread is terminated, it can not be resumed. 
 	
 	public static void main(String[] args) throws Exception 
 	{

@@ -13,9 +13,9 @@ public class ImplementAStack
 
 {
 
-	static int max_size;
-	static int stack_array[];
-	static int top;
+	static int max_size;		// size of an array
+	static int stack_array[];	// array declaration
+	static int top;				// index of an array, much relevant with respect to program
 	public ImplementAStack(int stack_size)
 	{
 		max_size=stack_size;
@@ -68,12 +68,12 @@ public class ImplementAStack
 		      System.out.println(stack_array[3]);
 		      System.out.println(stack_array[4]);
 		      
-		      System.out.println("value of top is "+ top);
+		      System.out.println("value of top is "+ theStack.peek());
 		      
 		      while(! theStack.isEmpty())
 		      {
 		    	  int value=theStack.pop();
-		      System.out.println(value);
+		      System.out.println("Value popped out is: "+value);
 		      System.out.print("");
 		      
 		      }

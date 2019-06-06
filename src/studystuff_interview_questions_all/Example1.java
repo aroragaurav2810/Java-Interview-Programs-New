@@ -28,7 +28,7 @@ public class Example1 {
 		  Example1 obj6=null;
 		  System.out.println(obj1==obj2); // false as object contains different value even they are of same class
 		  System.out.println(obj1.equals(obj2));// false as object contains different value even they are of same class
-		  System.out.println(obj5==obj6);// true because both containing same value
+		  System.out.println(obj5==obj6);// true because both containing same value and these are not initialized by new keyword that's why 
 		  //System.out.println(obj5.equals(obj6)); // It must be true(because both containing same value) if null was not there means any other value let's say "Amit" with obj5 and "Amit" with obj6 (as it is in ss1 and ss2) 
 		  // but commented as it throws null pointer exception
 		  // because in above code, we are calling equals method with object having null value
@@ -42,7 +42,7 @@ public class Example1 {
 		  System.out.println(ss1);
 		 // System.out.println(obj3==obj4); // commented as it was throwing 
 		 // System.out.println(sb1==sb2);
-		  System.out.println(sb1.equals(sb2)); // false as object of different class contains different value, Also false as object contains different value even they are of same class, 
+		  System.out.println(sb1.equals(sb2)); // false as unlike primitive classes, equals() function checks the location (instead of contenet) of non primitive classes, 
 		  System.out.println(sb1.equals(ss1)); // false as object of different class contains different value, Also false as object contains different value even they are of same class,
 		  System.out.println("Poddar".substring(3)); 
 		  System.out.println(ss1.equals(ss2));// true as both containing same value and also there is no null as it was in obj5 and obj6
@@ -52,9 +52,9 @@ public class Example1 {
 		  System.out.println(12>>>2);// explain below
 		  System.out.println(12<<2);// explain below
 		  String s = "Hello";
-		  s+= "Adobe";
-		  s.trim(); // doubtful
-		  System.out.print(s); 
+		  s+= "Adobe  ";
+		  String trimmed_s=s.trim(); 
+		  System.out.print(trimmed_s); 
 	}
 
 }

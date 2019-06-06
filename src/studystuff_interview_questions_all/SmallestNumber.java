@@ -5,7 +5,7 @@ public class SmallestNumber
 
 {
 
-	static int []ar={12,26,6,98,999,76,3};
+	static int []ar={2,12,26,6,98,999,76,3};
 	
 	static int smallest_number;
 	

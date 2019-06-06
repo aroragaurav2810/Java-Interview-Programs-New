@@ -17,9 +17,8 @@ public class CoVarient_Return_Type_Example
 	
 	{
 			CoVarient_Return_Type_Example obj=new CoVarient_Return_Type_Example();
-			//System.out.println(obj);
 			obj.function1().message();
-			//obj.message();
+			obj.message();
 	}
 
 	
@@ -29,4 +28,4 @@ public class CoVarient_Return_Type_Example
 
 
 // This example can also be used as the best example for run time exception because
-// If we use return null, then on run time application throws null pointer erxception
+// If we use return null, then on run time application throws null pointer exception
