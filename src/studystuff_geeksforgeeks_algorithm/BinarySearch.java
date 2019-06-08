@@ -19,13 +19,15 @@ public class BinarySearch
 		int key=50;
 		int first_index=0;
 		int last_index=arr.length;
-		
+		// Verify whether the element is present in array or not, if not then straightforward answer
+		// else, You need to search it using binary search
+		// By Using streams of Java8 , you can check whether array contains element or element has any match in array 
 		if(IntStream.of(arr).anyMatch(x -> x == key))
 		{
 			binarySearch(arr,key,first_index,last_index);
 		}
 		else
-		{
+		{ 
 			System.out.println("Key is not found in array");
 		}
 		

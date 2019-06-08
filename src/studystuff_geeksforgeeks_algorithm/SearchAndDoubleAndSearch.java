@@ -8,7 +8,7 @@ public class SearchAndDoubleAndSearch
 	static boolean flag=false;
 	public int searchAndDoubleAndSearchAgain(int arr[],int key)
 	{
-		
+		System.out.println("check stashing");
 		for(int i=0;i<arr.length;i++)
 		{
 			if(key==arr[i])
