@@ -23,7 +23,7 @@ public class StudentDetailsReader
 {
 	
 	static DataFormatter formatter = new DataFormatter(); //creating formatter using the default locale
-	static boolean videoworking;
+	static boolean vdeoworking;
 	static File file;
 	static FileInputStream fis;
 	static FileOutputStream fout;
