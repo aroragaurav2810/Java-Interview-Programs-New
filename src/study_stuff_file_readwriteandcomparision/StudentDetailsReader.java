@@ -57,7 +57,6 @@ public class StudentDetailsReader
 		System.out.println("Row count " +row_count);
 		 int col_count = row.getLastCellNum();
 		 System.out.println("Col count " +col_count);
-		 List<StudentsDetail> students=new ArrayList<StudentsDetail>();
 		 data= new String[row_count][col_count];
 		
 	
@@ -83,7 +82,11 @@ public class StudentDetailsReader
 	static void writeSameDataToExcel() throws Exception
 	{
 		//wb2=new XSSFWorkbook();
-		sheet=wb.createSheet("shet61");
+		if(wb.getSheetName(1).equals("sheet61"))
+		{
+			wb.removeSheetAt(1);
+		}
+		sheet=wb.createSheet("sheet61");
 		int i=0;
 		for(String temp_1d_array[]:data)
 		{
