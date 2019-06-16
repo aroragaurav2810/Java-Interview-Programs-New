@@ -46,8 +46,7 @@ public class StudentDetailsReader
 	{
 		 path=System.getProperty("user.dir");
 		 System.out.println(path);
-		 file= new File(path+
-				 "\\Students Detail.xlsx");
+		 file= new File(path+"\\Students Detail.xlsx");
 		
 		 fis= new FileInputStream(file);
 		
