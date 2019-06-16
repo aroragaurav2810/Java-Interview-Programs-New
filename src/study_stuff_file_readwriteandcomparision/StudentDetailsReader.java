@@ -39,7 +39,7 @@ public class StudentDetailsReader
 	static XSSFCell writing_cell;
 	public static void main(String[] args) throws Exception 
 	{
-	System.out.println("Main Function home_computer 1");
+	System.out.println("Main Function office_computer 2");
 		readDataFromExcel();
 		writeSameDataToExcel();
 		
