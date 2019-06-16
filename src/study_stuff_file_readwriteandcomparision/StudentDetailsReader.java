@@ -21,6 +21,7 @@ public class StudentDetailsReader
 
 
 {
+	
 	static DataFormatter formatter = new DataFormatter(); //creating formatter using the default locale
 	static boolean videoworking;
 	static File file;
@@ -38,6 +39,7 @@ public class StudentDetailsReader
 	static XSSFCell writing_cell;
 	public static void main(String[] args) throws Exception 
 	{
+	System.out.println("Main Function home_computer 1");
 		readDataFromExcel();
 		writeSameDataToExcel();
 		
