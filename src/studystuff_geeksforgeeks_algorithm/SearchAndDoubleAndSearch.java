@@ -28,11 +28,12 @@ public class SearchAndDoubleAndSearch
 		int arr[]={1,2,3,4,5,6,7,8,9,10};
 		int key=2;
 		SearchAndDoubleAndSearch obj=new SearchAndDoubleAndSearch();
+		System.out.println("Key is "+key);
 		key=obj.searchAndDoubleAndSearchAgain(arr,key);
 		if(flag=true)
 		{
 			System.out.println("Key found in array");
-			System.out.println("Key is :"+key);
+			System.out.println("It's doubled until we do not found given key :"+key);
 		}
 		else
 		{

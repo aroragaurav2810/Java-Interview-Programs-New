@@ -2,6 +2,12 @@ package studystuff_geeksforgeeks_algorithm;
 
 import java.util.Scanner;
 
+// Linear Search is the simplest searching algorithm that searches the element in linear way
+// It works efficiently with small data set but cannot survive against binary search if data set gets larger.
+// Worst complexity: O(n)
+// Best complexity: O(1)
+
+
 public class LinearSearch 
 
 {
