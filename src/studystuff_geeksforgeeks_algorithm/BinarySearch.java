@@ -13,6 +13,7 @@ public class BinarySearch
 	public static void main(String[] args) 
 	
 	{
+		System.out.println("Updating Binary Search");
 		System.out.println("Office Computer Change in Binary Search.java file");	
 		int arr[]={5,10,15,20,25,30,35,40,45,50};
 		int key=50;
