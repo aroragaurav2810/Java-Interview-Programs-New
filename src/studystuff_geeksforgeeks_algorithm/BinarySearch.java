@@ -4,8 +4,15 @@ package studystuff_geeksforgeeks_algorithm;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-
-
+// Binary Search is better searching algorithm than linear search as it works efficiently with large data 
+// Precondition: BinarySearch requires a sorted array  
+// BinarySearch as the name refers is a searching algorithm that is based on the approach of binary fusion
+// means divides the array into two halves using a pivot and then choose the half array depending upon you key and pivot comparison
+// Case 1: If key < pivot then choose the first half of an array
+// Case 2: If key > pivot then choose the second half of an array
+// Worst complexity: O(log n)
+// Best complexity: O(1)
+// NOTE: BinarySearch is a recursive algorithm 
 public class BinarySearch 
 
 {
@@ -37,19 +44,18 @@ public class BinarySearch
 
 	public static void binarySearch(int arr[], int key, int first_index, int last_index)
 	{
-		int mid=(first_index)+(last_index)/2;
+		int mid=(first_index+last_index)/2;
 		if(key<arr[mid])
 		{
-			first_index=0;
-			last_index=mid;
+			
+			last_index=mid-1;
 			binarySearch(arr, key, first_index, last_index);		
 		}
 		
 		
 		else if(key>arr[mid])
 		{
-			first_index=mid;
-			last_index=arr.length-1;
+			first_index=mid+1;
 			binarySearch(arr, key, first_index, last_index);		
 		}
 		

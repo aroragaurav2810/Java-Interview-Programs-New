@@ -2,6 +2,10 @@ package studystuff_geeksforgeeks_algorithm;
 
 import java.util.Arrays;
 
+// BubbleSort, as the name refers, it is a sorting algorithm that is based on bubble approach means
+// compare two collective(together) elements and sort them at the same time
+// Worst complexity: O(n^2) 
+// Best complexity: O(n)
 public class BubbleSort 
 
 {
