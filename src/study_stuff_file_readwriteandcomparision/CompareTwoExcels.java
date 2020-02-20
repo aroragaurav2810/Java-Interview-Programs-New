@@ -11,6 +11,12 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+
+// Step by Step Logic: Compare two excels.
+// 1. Read first excel and convert into first array.
+// 2. Read second excel and convert into second array.
+// 3. Now Compare two arrays using Arrays.deepEquals() method.
+
 public class CompareTwoExcels 
 
 {
@@ -23,9 +29,9 @@ public class CompareTwoExcels
 	static XSSFSheet sheet;
 	static XSSFRow row;
 	static XSSFCell cell;
-	static  Object arr[][];
-	
+	static  Object arr[][];	
 	DataFormatter df=new DataFormatter();
+	
 	public Object[][] readExcelData(String excel_path, String sheetname) throws Exception
 	{
 		 file=new File(excel_path);

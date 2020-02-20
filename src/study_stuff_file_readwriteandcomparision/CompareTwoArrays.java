@@ -17,7 +17,7 @@ public class CompareTwoArrays
 			
 			
 			
-			
+		// deepEquals() method of Arrays class is used to compare nested arrays which is not possible by equals() method of Arrays class	
 			if(Arrays.deepEquals(arr1,arr2))
 			{
 				System.out.println("2D Arrays are equal");
@@ -31,7 +31,8 @@ public class CompareTwoArrays
 			String arr3[]=new String[]{"gaurav", "arora"};
 			
 			String arr4[]=new String[]{"gaurav", "arora"};
-			
+		
+		// equals() method of Arrays class is used to compare 1 dimensional array	
 			if(Arrays.equals(arr3,arr4))
 			{
 				System.out.println("1D Arrays are equal");
